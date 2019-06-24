@@ -1,0 +1,14 @@
+- platform: telnet
+  switches:
+    projector_stage_right:
+      resource: 192.168.2.51
+      port: 3023
+      command_on: "C00"
+      command_off: "C01"
+      name: "Projector Stage Right"
+    projector_stage_left:
+      resource: 192.168.2.52
+      port: 3023
+      command_on: "C00"
+      command_off: "C01"
+      name: "Projector Stage Left"

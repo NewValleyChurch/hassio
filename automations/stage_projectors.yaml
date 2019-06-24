@@ -1,0 +1,55 @@
+- alias: Turn on Projectors on Sunday Morning
+  trigger:
+    platform: time
+    at: '06:00:00'
+  condition:
+    - condition: and
+      conditions:
+        - condition: or
+          conditions:
+            - condition: state
+              entity_id: input_boolean.projector_stage_left
+              state: 'off'
+            - condition: state
+              entity_id: input_boolean.projector_stage_right
+              state: 'off'
+        - condition: time
+          weekday:
+            - sun
+  action:
+    - service: switch.turn_on
+      entity_id: switch.projector_stage_left
+    - service: switch.turn_on
+      entity_id: switch.projector_stage_right
+    - service: input_boolean.turn_on
+      entity_id: input_boolean.projector_stage_left
+    - service: input_boolean.turn_on
+      entity_id: input_boolean.projector_stage_right
+
+- alias: Turn off projectors after Sunday service
+  trigger:
+    platform: time
+    at: '12:45:00'
+  condition:
+    - condition: and
+      conditions:
+        - condition: or
+          conditions:
+            - condition: state
+              entity_id: input_boolean.projector_stage_left
+              state: 'on'
+            - condition: state
+              entity_id: input_boolean.projector_stage_right
+              state: 'on'
+        - condition: time
+          weekday:
+            - sun
+  action:
+    - service: switch.turn_off
+      entity_id: switch.projector_stage_left
+    - service: switch.turn_off
+      entity_id: switch.projector_stage_right
+    - service: input_boolean.turn_off
+      entity_id: input_boolean.projector_stage_left
+    - service: input_boolean.turn_off
+      entity_id: input_boolean.projector_stage_right

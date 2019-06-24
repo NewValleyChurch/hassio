@@ -1,0 +1,42 @@
+- platform: dmx
+  host: 192.168.7.1
+  port: 6454
+  dmx_channels: 512
+  default_level: 0
+  send_levels_on_startup: True
+  devices:
+    - channel: 1
+      name: House Track 1
+      type: dimmer
+      default_level: 255
+      transition: 1
+    - channel: 2
+      name: House Track 2
+      type: dimmer
+      default_level: 255
+      transition: 1
+    - channel: 3
+      name: House Track 3
+      type: dimmer
+      default_level: 255
+      transition: 1
+    - channel: 4
+      name: House Track 4
+      type: dimmer
+      default_level: 255
+      transition: 1
+    - channel: 5
+      name: House Track 5
+      type: dimmer
+      default_level: 255
+      transition: 1
+    - channel: 6
+      name: House Track 6
+      type: dimmer
+      default_level: 255
+      transition: 1
+    - channel: 7
+      name: House Track 7
+      type: dimmer
+      default_level: 255
+      transition: 1

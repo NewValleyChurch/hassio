@@ -1,0 +1,44 @@
+## Common Utility
+
+ac_hold_time:
+  name: Hold Time
+  min: 1
+  max: 6
+  step: 1
+  
+thermostat_timer:
+  name: Thermostat Timer
+  initial: 1
+  min: 1
+  max: 7
+  step: 1
+
+sanctuary_master_temp:
+  name: Sanctuary Temperature
+  min: 65
+  max: 85
+  step: 1
+  
+main_foyer_temp:
+  name: Foyer
+  min: 65
+  max: 85
+  step: 1
+  
+living_room_temp:
+  name: Living Room
+  min: 65
+  max: 85
+  step: 1
+
+sunday_morning_temp:
+  name: Sunday Morning Sanctuary Temperature Setting
+  min: 65
+  max: 80
+  step: 1
+
+away_temp:
+  name: A/C Away Temp Setting
+  min: 65
+  max: 80
+  step: 1

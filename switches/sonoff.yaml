@@ -1,0 +1,62 @@
+- platform: mqtt
+  name: "Christmas Trees Stage Right"
+  command_topic: "cmnd/sonoff1/power"
+  state_topic: "stat/sonoff1/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Christmas Trees Stage Left"
+  command_topic: "cmnd/sonoff2/power"
+  state_topic: "stat/sonoff2/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Wash Zoom 450 IRC v2 Stage Left"
+  command_topic: "cmnd/sonoff4chintimidator/power1"
+  state_topic: "stat/sonoff4chintimidator/POWER1"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Spot 375Z IRC Stage Left"
+  command_topic: "cmnd/sonoff4chintimidator/power2"
+  state_topic: "stat/sonoff4chintimidator/POWER2"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Spot 375Z IRC Stage Right"
+  command_topic: "cmnd/sonoff4chintimidator/power3"
+  state_topic: "stat/sonoff4chintimidator/POWER3"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Wash Zoom 450 IRC v2 Stage Right"
+  command_topic: "cmnd/sonoff4chintimidator/power4"
+  state_topic: "stat/sonoff4chintimidator/POWER4"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+  
+- platform: mqtt
+  name: "Sanctuary NE Cooling"
+  command_topic: "cmnd/sanctuary_ne_cooling/power"
+  state_topic: "stat/sanctuary_ne_cooling/power"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true

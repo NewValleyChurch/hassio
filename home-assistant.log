@@ -1,0 +1,7 @@
+2019-06-24 20:56:56 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for life360 which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-06-24 20:56:56 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for dmx which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-06-24 20:57:07 WARNING (MainThread) [homeassistant.setup] Setup of default_config is taking over 10 seconds.
+2019-06-24 20:57:22 ERROR (SyncWorker_33) [homeassistant.components.ios.notify] The notify.ios platform was loaded but no devices exist! Please check the documentation at https://home-assistant.io/ecosystem/ios/notifications/ for more information
+2019-06-24 21:03:33 ERROR (MainThread) [frontend.js.latest.201906040] https://192.168.1.100:8123/frontend_latest/app.29ef27ad.js:2:59869 Uncaught TypeError: Cannot convert undefined or null to object
+2019-06-24 21:03:33 ERROR (MainThread) [frontend.js.latest.201906040] https://192.168.1.100:8123/frontend_latest/app.29ef27ad.js:2:59869 Uncaught TypeError: Cannot convert undefined or null to object
+2019-06-24 21:03:33 ERROR (MainThread) [frontend.js.latest.201906040] https://192.168.1.100:8123/frontend_latest/app.29ef27ad.js:2:59869 Uncaught TypeError: Cannot convert undefined or null to object

@@ -1,0 +1,11 @@
+- name: New Valley Chandler
+  latitude: 33.346612
+  longitude: -111.839924
+  radius: 200
+  icon: mdi:church
+
+- name: New Valley Downtown
+  latitude: 33.4659906
+  longitude: -112.0481024
+  radius: 200
+  icon: mdi:church

@@ -1,0 +1,8 @@
+.cloud
+.storage
+deps
+*._*
+*.DS*
+secrets*
+*.db
+*.Trash*

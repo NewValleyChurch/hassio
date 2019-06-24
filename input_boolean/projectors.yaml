@@ -1,0 +1,6 @@
+projector_stage_left:
+  name: Projector Stage Left
+  initial: off
+projector_stage_right:
+  name: Projector Stage Left
+  initial: off

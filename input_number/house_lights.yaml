@@ -1,0 +1,6 @@
+house_lights_timer:
+  name: House Lights Timer
+  initial: 20
+  min: 5
+  max: 300
+  step: 5
