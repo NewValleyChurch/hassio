@@ -9,3 +9,4 @@ secrets*
 node-red
 .google.token
 .spotify*
+home-assistant.log
