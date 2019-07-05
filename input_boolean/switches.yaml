@@ -1,0 +1,9 @@
+activate_door_lock:
+  name: Unlock Sanctuary Southwest Door
+  initial: off
+  icon: mdi:lock
+
+global_notification:
+  name: All Notifications
+  initial: on
+  icon: mdi:bullhorn

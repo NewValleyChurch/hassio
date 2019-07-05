@@ -6,3 +6,6 @@ deps
 secrets*
 *.db
 *.Trash*
+node-red
+.google.token
+.spotify*

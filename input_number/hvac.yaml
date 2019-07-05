@@ -1,7 +1,7 @@
 ## Common Utility
 
 ac_hold_time:
-  name: Hold Time
+  name: A/C Hold Time
   min: 1
   max: 6
   step: 1
@@ -14,19 +14,19 @@ thermostat_timer:
   step: 1
 
 sanctuary_master_temp:
-  name: Sanctuary Temperature
+  name: Sanctuary Temperature Setting
   min: 65
   max: 85
   step: 1
   
 main_foyer_temp:
-  name: Foyer
+  name: Foyer Thermostat
   min: 65
   max: 85
   step: 1
   
 living_room_temp:
-  name: Living Room
+  name: Living Room Thermostat
   min: 65
   max: 85
   step: 1

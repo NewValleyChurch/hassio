@@ -1,0 +1,6 @@
+open_door:
+  sequence:
+    - service: mqtt.publish
+      data:
+        topic: "rfid"
+        payload: "{\"cmd\":\"opendoor\", \"doorip\":\"192.168.5.60\"}"

@@ -294,3 +294,155 @@ life360_melanie_griffith:
   name: life360 melanie griffith
   picture:
   track: true
+
+88_1f_a1_06_97_ac:
+  hide_if_away: false
+  icon:
+  mac: 88:1F:A1:06:97:AC
+  name: 88 1f a1 06 97 ac
+  picture:
+  track: true
+
+a4_d1_8c_da_c6_ea:
+  hide_if_away: false
+  icon:
+  mac: A4:D1:8C:DA:C6:EA
+  name: a4 d1 8c da c6 ea
+  picture:
+  track: true
+
+dc_4f_22_c6_d0_75:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:C6:D0:75
+  name: dc 4f 22 c6 d0 75
+  picture:
+  track: true
+
+00_6b_9e_a4_59_83:
+  hide_if_away: false
+  icon:
+  mac: 00:6B:9E:A4:59:83
+  name: 00 6b 9e a4 59 83
+  picture:
+  track: true
+
+cc_95_d7_4b_fc_18:
+  hide_if_away: false
+  icon:
+  mac: CC:95:D7:4B:FC:18
+  name: cc 95 d7 4b fc 18
+  picture:
+  track: true
+
+bc_dd_c2_01_8d_40:
+  hide_if_away: false
+  icon:
+  mac: BC:DD:C2:01:8D:40
+  name: bc dd c2 01 8d 40
+  picture:
+  track: true
+
+80_e6_50_00_09_94:
+  hide_if_away: false
+  icon:
+  mac: 80:E6:50:00:09:94
+  name: 80 e6 50 00 09 94
+  picture:
+  track: true
+
+e4_b2_fb_2f_20_39:
+  hide_if_away: false
+  icon:
+  mac: E4:B2:FB:2F:20:39
+  name: e4 b2 fb 2f 20 39
+  picture:
+  track: true
+
+00_04_c4_02_64_a7:
+  hide_if_away: false
+  icon:
+  mac: 00:04:C4:02:64:A7
+  name: 00 04 c4 02 64 a7
+  picture:
+  track: true
+
+f0_18_98_5e_c8_95:
+  hide_if_away: false
+  icon:
+  mac: F0:18:98:5E:C8:95
+  name: f0 18 98 5e c8 95
+  picture:
+  track: true
+
+10_08_c1_1a_c5_b9:
+  hide_if_away: false
+  icon:
+  mac: 10:08:C1:1A:C5:B9
+  name: 10 08 c1 1a c5 b9
+  picture:
+  track: true
+
+78_4b_87_e8_9d_05:
+  hide_if_away: false
+  icon:
+  mac: 78:4B:87:E8:9D:05
+  name: 78 4b 87 e8 9d 05
+  picture:
+  track: true
+
+00_80_92_90_ab_fd:
+  hide_if_away: false
+  icon:
+  mac: 00:80:92:90:AB:FD
+  name: 00 80 92 90 ab fd
+  picture:
+  track: true
+
+88_19_08_2d_a7_b4:
+  hide_if_away: false
+  icon:
+  mac: 88:19:08:2D:A7:B4
+  name: 88 19 08 2d a7 b4
+  picture:
+  track: true
+
+00_80_92_9b_87_e2:
+  hide_if_away: false
+  icon:
+  mac: 00:80:92:9B:87:E2
+  name: 00 80 92 9b 87 e2
+  picture:
+  track: true
+
+98_10_e8_16_d9_73:
+  hide_if_away: false
+  icon:
+  mac: 98:10:E8:16:D9:73
+  name: 98 10 e8 16 d9 73
+  picture:
+  track: true
+
+84_f3_eb_81_43_e7:
+  hide_if_away: false
+  icon:
+  mac: 84:F3:EB:81:43:E7
+  name: 84 f3 eb 81 43 e7
+  picture:
+  track: true
+
+jons_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Jon's iPhone 7
+  picture:
+  track: true
+
+68_d9_3c_cb_73_08:
+  hide_if_away: false
+  icon:
+  mac: 68:D9:3C:CB:73:08
+  name: 68 d9 3c cb 73 08
+  picture:
+  track: true

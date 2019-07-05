@@ -4,8 +4,7 @@ sensor_node_1_card:
     - sensor.sn1_temperature  
     - sensor.sn1_humidity  
     - sensor.sn1_ldr  
-    - sensor.sn1_pir  
-    - light.sn1_led
+    - sensor.sn1_pir
 
 thermostats:
   name: Thermostat Control
@@ -14,28 +13,6 @@ thermostats:
     - group.thermostats_sanctuary
     - group.thermostats_living_room
     - group.thermostats_main_foyer
-
-sanctuary_thermostats:
-  name: Sanctuary Thermostats
-  view: no
-  entities:
-    - input_number.sanctuary_ac_n1
-    - input_number.sanctuary_ac_n2
-    - input_number.sanctuary_ac_ne
-    - input_number.sanctuary_ac_se
-    - input_number.sanctuary_ac_w
-
-thermostats_main_foyer:
-  name: Main Foyer Thermostat
-  view: no
-  entities:
-    - input_number.main_foyer_ac
-
-thermostats_living_room:
-  name: Living Room Thermostat
-  view: no
-  entities:
-    - input_number.living_room_ac
 
 sonoff:
   name: Sonoff
@@ -48,15 +25,15 @@ sonoff_switches:
   name: Sonoff Switches
   view: no
   entities:
-    - switch.christmas_trees_stage_left
-    - switch.christmas_trees_stage_right
+    - switch.sonoff_stage_left
+    - switch.sonoff_stage_right
 
 sonoff_devices:
   name: Sonoff Devices
   view: no
   entities:
-    - device_tracker.christmas_trees_stage_right
-    - device_tracker.christmas_trees_stage_left
+    - device_tracker.sonoff_stage_right
+    - device_tracker.sonoff_trees_stage_left
 
 house_lights:
   name: House Lights
@@ -69,15 +46,3 @@ house_lights:
     - light.house_track_5
     - light.house_track_6
     - light.house_track_7
-
-hvac_fan_switches:
-  name: HVAC Fan Switches
-  view: no
-  entities:
-    - input_boolean.sanctuary_w_hvac_fan
-    - input_boolean.sanctuary_ne_hvac_fan
-    - input_boolean.sanctuary_se_hvac_fan
-    - input_boolean.sanctuary_n1_hvac_fan
-    - input_boolean.sanctuary_n2_hvac_fan
-    - input_boolean.living_room_hvac_fan
-    - input_boolean.foyer_hvac_fan

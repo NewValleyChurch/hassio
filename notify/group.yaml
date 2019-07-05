@@ -1,0 +1,4 @@
+- name: notify_all_ios
+  platform: group
+  services:
+    - service: ios_jons_iphone

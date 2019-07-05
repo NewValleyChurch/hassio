@@ -417,7 +417,7 @@
   },
   "node-red-contrib-cast": {
    "name": "node-red-contrib-cast",
-   "version": "0.2.6",
+   "version": "0.2.8",
    "local": false,
    "nodes": {
     "cast-to-client": {
@@ -944,7 +944,7 @@
   },
   "node-red-dashboard": {
    "name": "node-red-dashboard",
-   "version": "2.15.4",
+   "version": "2.15.5",
    "local": false,
    "nodes": {
     "ui_base": {
@@ -1402,16 +1402,193 @@
      "file": "/opt/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-contrib-weekday": {
+   "name": "node-red-contrib-weekday",
+   "version": "0.1.0",
+   "local": false,
+   "nodes": {
+    "weekday": {
+     "name": "weekday",
+     "types": [
+      "weekday"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-weekday",
+     "file": "/config/node-red/node_modules/node-red-contrib-weekday/weekday.js"
+    }
+   }
+  },
+  "node-red-contrib-ifttt": {
+   "name": "node-red-contrib-ifttt",
+   "version": "0.3.1",
+   "local": false,
+   "nodes": {
+    "ifttt": {
+     "name": "ifttt",
+     "types": [
+      "ifttt-key",
+      "ifttt out"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-ifttt",
+     "file": "/config/node-red/node_modules/node-red-contrib-ifttt/nodes/ifttt.js"
+    }
+   }
+  },
+  "node-red-contrib-ifttt-broker": {
+   "name": "node-red-contrib-ifttt-broker",
+   "version": "0.2.3",
+   "local": false,
+   "nodes": {
+    "ifttt-broker": {
+     "name": "ifttt-broker",
+     "types": [
+      "ifttt-broker"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-ifttt-broker",
+     "file": "/config/node-red/node_modules/node-red-contrib-ifttt-broker/ifttt-broker.js"
+    },
+    "ifttt-action": {
+     "name": "ifttt-action",
+     "types": [
+      "ifttt-action"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-ifttt-broker",
+     "file": "/config/node-red/node_modules/node-red-contrib-ifttt-broker/ifttt-action.js"
+    },
+    "ifttt-trigger": {
+     "name": "ifttt-trigger",
+     "types": [
+      "ifttt-trigger"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-ifttt-broker",
+     "file": "/config/node-red/node_modules/node-red-contrib-ifttt-broker/ifttt-trigger.js"
+    }
+   }
+  },
+  "node-red-contrib-schedex": {
+   "name": "node-red-contrib-schedex",
+   "version": "1.6.2",
+   "local": false,
+   "nodes": {
+    "schedex": {
+     "name": "schedex",
+     "types": [
+      "schedex"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-schedex",
+     "file": "/config/node-red/node_modules/node-red-contrib-schedex/index.js"
+    }
+   }
+  },
+  "ttb-ifttt": {
+   "name": "ttb-ifttt",
+   "version": "0.1.0",
+   "local": false,
+   "nodes": {
+    "ifttt-trigger": {
+     "name": "ifttt-trigger",
+     "types": [
+      "ifttt trigger"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "ttb-ifttt",
+     "file": "/config/node-red/node_modules/ttb-ifttt/nodes/ifttt-trigger.js"
+    }
+   }
+  },
+  "node-red-contrib-serial-iterator": {
+   "name": "node-red-contrib-serial-iterator",
+   "version": "0.1.3",
+   "local": false,
+   "nodes": {
+    "Serial-Iterator": {
+     "name": "Serial-Iterator",
+     "types": [
+      "Serial Iterator"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-serial-iterator",
+     "file": "/config/node-red/node_modules/node-red-contrib-serial-iterator/91-01-sr-iterator.js"
+    }
+   }
+  },
+  "node-red-node-mysql": {
+   "name": "node-red-node-mysql",
+   "version": "0.0.18",
+   "local": false,
+   "nodes": {
+    "mysql": {
+     "name": "mysql",
+     "types": [
+      "MySQLdatabase",
+      "mysql"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-mysql",
+     "file": "/config/node-red/node_modules/node-red-node-mysql/68-mysql.js"
+    }
+   }
+  },
+  "node-red-contrib-google-tts": {
+   "name": "node-red-contrib-google-tts",
+   "version": "1.1.1",
+   "local": false,
+   "nodes": {
+    "google-tts": {
+     "name": "google-tts",
+     "types": [
+      "google-tts"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-tts",
+     "file": "/config/node-red/node_modules/node-red-contrib-google-tts/google-tts.js"
+    }
+   }
+  },
+  "node-red-contrib-ui_list": {
+   "name": "node-red-contrib-ui_list",
+   "version": "0.1.4",
+   "local": false,
+   "nodes": {
+    "ui_list": {
+     "name": "ui_list",
+     "types": [
+      "ui_list"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-ui_list",
+     "file": "/config/node-red/node_modules/node-red-contrib-ui_list/ui_list.js"
+    }
+   }
   }
  },
  "users": {
   "_": {
    "editor": {
     "view": {
-     "view-grid-size": 20,
+     "view-grid-size": "20",
      "view-node-status": true,
      "view-node-show-label": true,
-     "view-show-tips": true
+     "view-show-tips": false,
+     "view-snap-grid": true,
+     "view-show-grid": true
     }
    }
   }
