@@ -1,3 +1,0 @@
-- name: system_status
-  platform: twilio_sms
-  from_number: +16023123262
