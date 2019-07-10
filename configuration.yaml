@@ -40,4 +40,4 @@ life360: !include_dir_merge_list life360/
 google: !include_dir_merge_named google/
 hacs: !include_dir_merge_named hacs/
 script: !include scripts.yaml
-logger:
+#logger:
