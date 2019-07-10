@@ -3,7 +3,7 @@
   port: 6454
   dmx_channels: 512
   default_level: 0
-  send_levels_on_startup: True
+  send_levels_on_startup: false
   devices:
     - channel: 1
       name: House Track 1
