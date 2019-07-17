@@ -1,0 +1,13 @@
+- platform: template
+  sensors:
+    ac_set_temp:
+      friendly_name: "AC Set Temp Reading"
+      unit_of_measurement: '°'
+      value_template: "{{ states('input_number.set_temperature') | int }}"
+
+- platform: template
+  sensors:
+    ac_hold_time:
+      friendly_name: "Hold Time"
+      unit_of_measurement: "Hours"
+      value_template: "{{ states('input_number.ac_hold_time') | int }}"

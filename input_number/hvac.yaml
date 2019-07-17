@@ -42,3 +42,9 @@ away_temp:
   min: 65
   max: 80
   step: 1
+
+set_temperature:
+  name: Set Temperature
+  min: 65
+  max: 85
+  step: 1

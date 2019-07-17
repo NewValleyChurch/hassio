@@ -13,7 +13,8 @@
 
 esphome/camera1.yaml
 esphome/sanctuary_node_1.yaml
-
+www/images/
+esphome/
 deps
 secrets*
 

@@ -1,0 +1,6 @@
+send_temp_sanctuary:
+  sequence:
+    - service: input_number.set_value
+      data_template:
+        entity_id: input_number.sanctuary_master_temp
+        value: "{{ states('input_number.set_temperature') }}"

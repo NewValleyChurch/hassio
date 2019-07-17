@@ -4,3 +4,52 @@ house_lights_timer:
   min: 5
   max: 300
   step: 5
+
+house_all_tracks_level:
+  name: All Tracks Level
+  initial: 0
+  min: 0
+  max: 255
+  step: 1
+house_track_1_level:
+  name: House Track 1 Dimmer
+  initial: 0
+  min: 0
+  max: 255
+  step: 1
+house_track_2_level:
+  name: House Track 2 Dimmer
+  initial: 0
+  min: 0
+  max: 255
+  step: 1
+house_track_3_level:
+  name: House Track 3 Dimmer
+  initial: 0
+  min: 0
+  max: 255
+  step: 1
+house_track_4_level:
+  name: House Track 4 Dimmer
+  initial: 0
+  min: 0
+  max: 255
+  step: 1
+house_track_5_level:
+  name: House Track 5 Dimmer
+  initial: 0
+  min: 0
+  max: 255
+  step: 1
+house_track_6_level:
+  name: House Track 6 Dimmer
+  initial: 0
+  min: 0
+  max: 255
+  step: 1
+house_track_7_level:
+  name: House Track 7 Dimmer
+  initial: 0
+  min: 0
+  max: 255
+  step: 1
