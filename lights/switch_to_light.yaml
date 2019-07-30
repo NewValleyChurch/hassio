@@ -1,0 +1,3 @@
+- platform: switch
+  name: Sound Booth LED Strip
+  entity_id: switch.sonoff

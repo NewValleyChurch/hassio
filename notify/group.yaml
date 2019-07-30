@@ -2,3 +2,4 @@
   platform: group
   services:
     - service: ios_jons_iphone
+    - service: ios_ajs_iphone

@@ -1,7 +1,7 @@
-
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
-
+frontend:
+  themes: !include_dir_merge_named themes
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 http:
   base_url: !secret base_url
@@ -41,4 +41,9 @@ google: !include_dir_merge_named google/
 hacs: !include_dir_merge_named hacs/
 script: !include_dir_merge_named scripts/
 alarm_control_panel: !include_dir_merge_list alarm_control_panels/
+panel_iframe:
+  tasmoadmin:
+    title: TasmoAdmin
+    icon: mdi:lightbulb-on
+    url: https://hassio.newvalleyresources.com:9541
 #logger:

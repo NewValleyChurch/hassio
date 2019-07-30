@@ -1,7 +1,7 @@
 ## Common Utility
 
 ac_hold_time:
-  name: A/C Hold Time
+  name: AC Hold Time
   min: 1
   max: 6
   step: 1
@@ -38,7 +38,7 @@ sunday_morning_temp:
   step: 1
 
 away_temp:
-  name: A/C Away Temp Setting
+  name: AC Away Temp Setting
   min: 65
   max: 80
   step: 1
