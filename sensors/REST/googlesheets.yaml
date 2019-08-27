@@ -1,0 +1,12 @@
+- platform: rest
+  name: questions
+  resource: https://spreadsheets.google.com/feeds/cells/1H7GeoVAihAhPOzUvyWSL5PfM53yeB0znFAUnCXbgCIU/1/public/full?alt=json
+  json_attributes:
+    - feed
+  value_template: 'OK'
+- platform: template
+  sensors:
+    question:
+      value_template: >-
+        {% set i = (states.sensor.questions.attributes['feed']['entry'] | length) - 1 %}
+        {{ states.sensor.questions.attributes['feed']['entry'][i]['gs$cell']['inputValue'] }}

@@ -1,0 +1,15 @@
+- platform: mqtt
+  name: "Southwest Sanctuary Door"
+  state_topic: "rfid/send"
+  value_template: >-
+    {% if value_json.desc == "Door Open" %}
+      Unlocked
+    {% else %}
+      Locked
+    {% endif %}
+  json_attributes_topic: "rfid/send"
+
+- platform: mqtt
+  name: "SW Door Last Access"
+  state_topic: "rfid/send"
+  value_template: "{{ value_json.username }}"

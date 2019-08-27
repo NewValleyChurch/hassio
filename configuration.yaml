@@ -41,6 +41,7 @@ google: !include_dir_merge_named google/
 hacs: !include_dir_merge_named hacs/
 script: !include_dir_merge_named scripts/
 alarm_control_panel: !include_dir_merge_list alarm_control_panels/
+media_player: !include_dir_merge_list media_players
 panel_iframe:
   tasmoadmin:
     title: TasmoAdmin
